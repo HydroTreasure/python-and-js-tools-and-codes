@@ -61,5 +61,6 @@ vector3("add", \ #unlimited arguments, all vec3
 vector3("dotmultiply", v1, v2) #Returns the dot product of v1 and v2
 vector3("angle", v1, v2) #Returns the angle between v1 and v2
 vector3("crossmultiply", v1, v2) #Returns a dictionary, of which "magnitude" property contains magnitude of v1 to v2 cross product vector, "vector" property contains v1 to v2 cross product vector,
-vector3("crossmultiply", v1, v2)["display"] #and display property containing "magnitude" as magnitude of v1 to v2 cross product vector and "vector" property contains stringified form of v1 to v2 cross product vector  
+vector3("crossmultiply", v1, v2)["display"] #and display property containing "magnitude" as magnitude of v1 to v2 cross product vector and "vector" property contains stringified form of v1 to v2 cross product vector
+```  
 TODO: Replace many of these with operator overloads (possibly as an alias)
