@@ -1,0 +1,13 @@
+1. Setup and Hello World
+2. Python Data Types
+3. Built-in Single-Value Types
+4. Console Output and Input, Control Structures and break, continue
+5. Built-in Container Types
+6. Python Functions
+7. Python Class
+8. Class Inheritence
+9. Python Function and Operator Overloading
+10. Python sys and os Modules
+11. Python Exceptions
+Some tutorials on Python Standard Library... (like json, ctypes, turtle, tkinter etc.)
+Some tutorials on 3rd Party Libraries... (like numpy, pygame, pyjokes, google, ursina etc.)
