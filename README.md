@@ -29,7 +29,7 @@ vector3.angle(v1, v2); //Returns the angle between v1 and v2
 vector3.crossmultiply(v1, v2); //Returns an object, of which "magnitude" property contains magnitude of v1 to v2 cross product vector and "vector" property contains v1 to v2 cross product vector
 ```  
 `expression` class  
-This is another class, but since it uses `Function` class, it lacks code security, though I have tried to make it as good as possible. For now, let us leave with one example.  
+This is another class, but since it uses `Function` class, it lacks code security, though I have tried to make it as good as possible by blocking certain characters. For now, let us leave with one example.  
 ```javascript
 new expression("2*u + sin(v) -11").evaluateFor(["u = 5", "v = _pi_/2"]) // = 0
 ```  
