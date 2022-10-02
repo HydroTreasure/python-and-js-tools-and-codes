@@ -60,6 +60,12 @@ const vector3 = {
 // expression
 function expfy(string) {
 	let expression = string;
+	if (expression.includes(";")) { //safety measure
+		expression = "";
+	}
+	if (expression.includes("\n")) { //safety measure
+		expression = "";
+	}
 	if (expression.includes("{")) { //safety measure
 		expression = "";
 	}
